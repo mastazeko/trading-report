@@ -29,151 +29,220 @@
 <body>
     <div class="container">
         <h1>🎯 DCA Position Trading Bot</h1>
-        
         <div class="strategy-info">
             <h3>Strategy: Dollar Cost Averaging (DCA)</h3>
             <p>Initial: $500 | Max Entries: 5 | DCA Step: 2.0% | Size Multiplier: 1.5x</p>
             <p>Exit: Breakeven + 0.5% | Stop Loss: 15.0% | Max Investment: $2000</p>
         </div>
         
-        
-            <h2>⚡ Active DCA Positions (6)</h2>
+            <h2>⚡ Active DCA Positions (8)</h2>
             <table>
                 <thead>
                     <tr><th>Symbol</th><th>Entries</th><th>Total Qty</th><th>Avg Entry</th><th>Current</th><th>PNL %</th><th>Unrealized PNL</th><th>Invested</th></tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td>BTCUSDT</td>
-                    <td>1</td>
-                    <td>0.005</td>
-                    <td>$110008.00</td>
-                    <td>$110053.40</td>
-                    <td>+0.04%</td>
-                    <td class='profit'>$+0.23</td>
-                    <td>$550.04</td>
-                </tr>
-                <tr>
-                    <td>XRPUSDT</td>
-                    <td>1</td>
-                    <td>198.0</td>
-                    <td>$2.52</td>
-                    <td>$2.50</td>
-                    <td>-0.99%</td>
-                    <td class='loss'>$-4.95</td>
-                    <td>$499.38</td>
-                </tr>
-                <tr>
-                    <td>SOLUSDT</td>
-                    <td>2</td>
-                    <td>6.8</td>
-                    <td>$185.37</td>
-                    <td>$185.77</td>
-                    <td>+0.21%</td>
-                    <td class='profit'>$+2.70</td>
-                    <td>$1260.54</td>
-                </tr>
-                <tr>
-                    <td>DOGEUSDT</td>
-                    <td>1</td>
-                    <td>2673.0</td>
-                    <td>$0.19</td>
-                    <td>$0.19</td>
-                    <td>-0.02%</td>
-                    <td class='loss'>$-0.11</td>
-                    <td>$500.04</td>
-                </tr>
-                <tr>
                     <td>ADAUSDT</td>
                     <td>1</td>
                     <td>814.0</td>
                     <td>$0.61</td>
                     <td>$0.61</td>
-                    <td>-0.49%</td>
-                    <td class='loss'>$-2.44</td>
+                    <td>-1.25%</td>
+                    <td class='loss'>$-6.27</td>
                     <td>$499.71</td>
+                </tr>
+                <tr>
+                    <td>DOGEUSDT</td>
+                    <td>1</td>
+                    <td>2666.0</td>
+                    <td>$0.19</td>
+                    <td>$0.19</td>
+                    <td>-1.34%</td>
+                    <td class='loss'>$-6.69</td>
+                    <td>$500.01</td>
+                </tr>
+                <tr>
+                    <td>ETHUSDT</td>
+                    <td>1</td>
+                    <td>0.13</td>
+                    <td>$3895.00</td>
+                    <td>$3855.73</td>
+                    <td>-1.01%</td>
+                    <td class='loss'>$-5.11</td>
+                    <td>$506.35</td>
+                </tr>
+                <tr>
+                    <td>XRPUSDT</td>
+                    <td>1</td>
+                    <td>198.0</td>
+                    <td>$2.53</td>
+                    <td>$2.51</td>
+                    <td>-0.55%</td>
+                    <td class='loss'>$-2.73</td>
+                    <td>$500.07</td>
+                </tr>
+                <tr>
+                    <td>SOLUSDT</td>
+                    <td>1</td>
+                    <td>2.7</td>
+                    <td>$186.86</td>
+                    <td>$184.94</td>
+                    <td>-1.03%</td>
+                    <td class='loss'>$-5.18</td>
+                    <td>$504.52</td>
                 </tr>
                 <tr>
                     <td>AVAXUSDT</td>
                     <td>1</td>
-                    <td>26.9</td>
-                    <td>$18.61</td>
-                    <td>$18.59</td>
-                    <td>-0.12%</td>
-                    <td class='loss'>$-0.62</td>
-                    <td>$500.72</td>
+                    <td>26.5</td>
+                    <td>$18.86</td>
+                    <td>$18.63</td>
+                    <td>-1.21%</td>
+                    <td class='loss'>$-6.04</td>
+                    <td>$499.66</td>
+                </tr>
+                <tr>
+                    <td>BTCUSDT</td>
+                    <td>1</td>
+                    <td>0.005</td>
+                    <td>$110750.00</td>
+                    <td>$110335.00</td>
+                    <td>-0.37%</td>
+                    <td class='loss'>$-2.08</td>
+                    <td>$553.75</td>
+                </tr>
+                <tr>
+                    <td>DOTUSDT</td>
+                    <td>1</td>
+                    <td>166.9</td>
+                    <td>$3.00</td>
+                    <td>$2.97</td>
+                    <td>-1.03%</td>
+                    <td class='loss'>$-5.14</td>
+                    <td>$500.03</td>
                 </tr></tbody>
             </table>
-            <p><strong>Total Unrealized PNL: <span class="loss">$-5.19</span></strong></p>
-        
+            <p><strong>Total Unrealized PNL: <span class="loss">$-39.24</span></strong></p>
         
         <h2>📈 Overall Performance</h2>
         <div class="summary-grid">
-            <div class="summary-card">
-                <h3>Current Balance</h3>
-                <p>$31,568.41 USDT</p>
-            </div>
-            <div class="summary-card">
-                <h3>Total Realized PNL</h3>
-                <p class="profit">$149.80 USDT</p>
-            </div>
-            <div class="summary-card">
-                <h3>Total ROI</h3>
-                <p class="profit">0.00%</p>
-            </div>
-            <div class="summary-card">
-                <h3>Win Rate</h3>
-                <p>100.0%</p>
-            </div>
-            <div class="summary-card">
-                <h3>Completed Trades</h3>
-                <p>66</p>
-            </div>
-            <div class="summary-card">
-                <h3>Wins / Losses</h3>
-                <p><span class="profit">66</span> / <span class="loss">0</span></p>
-            </div>
+            <div class="summary-card"><h3>Current Balance</h3><p>$31,599.60 USDT</p></div>
+            <div class="summary-card"><h3>Total Realized PNL</h3><p class="profit">$188.43 USDT</p></div>
+            <div class="summary-card"><h3>Total ROI</h3><p class="profit">0.00%</p></div>
+            <div class="summary-card"><h3>Win Rate</h3><p>100.0%</p></div>
+            <div class="summary-card"><h3>Completed Trades</h3><p>77</p></div>
+            <div class="summary-card"><h3>Wins / Losses</h3><p><span class="profit">77</span> / <span class="loss">0</span></p></div>
         </div>
-        
         <h2>📅 Performance by Period</h2>
         <div class="performance-container">
-            <div class="performance-box">
-                <h3>📊 Current Week (Week 44)</h3>
-                <p><strong>Total: <span class="profit">$+5.39</span> (+0.02%)</strong></p>
-                <table class="small-table">
-                    <tbody><tr><td>Monday</td><td class='profit'>$+0.00</td></tr><tr><td>Tuesday</td><td class='profit'>$+0.00</td></tr><tr><td>Wednesday</td><td class='profit'>$+0.00</td></tr><tr><td>Thursday</td><td class='profit'>$+0.00</td></tr><tr><td>Friday</td><td class='profit'>$+0.00</td></tr><tr><td>Saturday</td><td class='profit'>$+5.39</td></tr><tr><td>Sunday</td><td class='profit'>$+0.00</td></tr></tbody>
-                </table>
-            </div>
-            
-            <div class="performance-box">
-                <h3>📊 Previous Week (Week 0)</h3>
-                <p><strong>Total: <span class="profit">$+0.00</span> (+0.00%)</strong></p>
-                <table class="small-table">
-                    <tbody><tr><td>Monday</td><td class='profit'>$+0.00</td></tr><tr><td>Tuesday</td><td class='profit'>$+0.00</td></tr><tr><td>Wednesday</td><td class='profit'>$+0.00</td></tr><tr><td>Thursday</td><td class='profit'>$+0.00</td></tr><tr><td>Friday</td><td class='profit'>$+0.00</td></tr><tr><td>Saturday</td><td class='profit'>$+0.00</td></tr><tr><td>Sunday</td><td class='profit'>$+0.00</td></tr></tbody>
-                </table>
-            </div>
-            
-            <div class="performance-box">
-                <h3>📊 Current Month (November 2025)</h3>
-                <p><strong>Total: <span class="profit">$+5.39</span> (+0.02%)</strong></p>
-                <table class="small-table">
-                    <tbody><tr><td>Nov 01</td><td class='profit'>$+5.39</td></tr></tbody>
-                </table>
-            </div>
-            
-            <div class="performance-box">
-                <h3>📊 Previous Month</h3>
-                <p><strong>Total: <span class="profit">$+0.00</span> (+0.00%)</strong></p>
-                <p style="color: #888;">No data yet</p>
-            </div>
+            <div class="performance-box"><h3>📊 Current Week (Week 44)</h3><p><strong>Total: <span class="profit">$+44.02</span> (+0.14%)</strong></p><table class="small-table"><tbody><tr><td>Monday</td><td class='profit'>$+0.00</td></tr><tr><td>Tuesday</td><td class='profit'>$+0.00</td></tr><tr><td>Wednesday</td><td class='profit'>$+0.00</td></tr><tr><td>Thursday</td><td class='profit'>$+0.00</td></tr><tr><td>Friday</td><td class='profit'>$+0.00</td></tr><tr><td>Saturday</td><td class='profit'>$+16.98</td></tr><tr><td>Sunday</td><td class='profit'>$+27.04</td></tr></tbody></table></div>
+            <div class="performance-box"><h3>📊 Previous Week (Week 0)</h3><p><strong>Total: <span class="profit">$+0.00</span> (+0.00%)</strong></p><table class="small-table"><tbody><tr><td>Monday</td><td class='profit'>$+0.00</td></tr><tr><td>Tuesday</td><td class='profit'>$+0.00</td></tr><tr><td>Wednesday</td><td class='profit'>$+0.00</td></tr><tr><td>Thursday</td><td class='profit'>$+0.00</td></tr><tr><td>Friday</td><td class='profit'>$+0.00</td></tr><tr><td>Saturday</td><td class='profit'>$+0.00</td></tr><tr><td>Sunday</td><td class='profit'>$+0.00</td></tr></tbody></table></div>
+            <div class="performance-box"><h3>📊 Current Month (November 2025)</h3><p><strong>Total: <span class="profit">$+32.40</span> (+0.10%)</strong></p><table class="small-table"><tbody><tr><td>Nov 01</td><td class='profit'>$+5.36</td></tr><tr><td>Nov 02</td><td class='profit'>$+27.04</td></tr></tbody></table></div>
+            <div class="performance-box"><h3>📊 Previous Month</h3><p><strong>Total: <span class="profit">$+0.00</span> (+0.00%)</strong></p><p style="color: #888;">No data yet</p></div>
         </div>
-        
         <h2>📜 Completed Trades (Last 20)</h2>
         <table>
-            <thead>
-                <tr><th>Timestamp</th><th>Symbol</th><th>Entries</th><th>Avg Entry</th><th>Exit</th><th>PNL</th><th>Reason</th></tr>
-            </thead>
+            <thead><tr><th>Timestamp</th><th>Symbol</th><th>Entries</th><th>Avg Entry</th><th>Exit</th><th>PNL</th><th>Reason</th></tr></thead>
             <tbody>
+            <tr>
+                <td>2025-11-02 10:25:38</td>
+                <td>DOTUSDT</td>
+                <td>1</td>
+                <td>$2.99</td>
+                <td>$3.01</td>
+                <td class='profit'>$+2.56</td>
+                <td>PROFIT_TARGET</td>
+            </tr>
+            <tr>
+                <td>2025-11-02 10:24:54</td>
+                <td>AVAXUSDT</td>
+                <td>1</td>
+                <td>$18.84</td>
+                <td>$18.94</td>
+                <td class='profit'>$+2.54</td>
+                <td>PROFIT_TARGET</td>
+            </tr>
+            <tr>
+                <td>2025-11-02 09:19:11</td>
+                <td>XRPUSDT</td>
+                <td>1</td>
+                <td>$2.52</td>
+                <td>$2.54</td>
+                <td class='profit'>$+2.57</td>
+                <td>PROFIT_TARGET</td>
+            </tr>
+            <tr>
+                <td>2025-11-02 09:16:35</td>
+                <td>AVAXUSDT</td>
+                <td>1</td>
+                <td>$18.64</td>
+                <td>$18.91</td>
+                <td class='profit'>$+7.32</td>
+                <td>PROFIT_TARGET</td>
+            </tr>
+            <tr>
+                <td>2025-11-02 09:16:32</td>
+                <td>SOLUSDT</td>
+                <td>1</td>
+                <td>$186.21</td>
+                <td>$187.28</td>
+                <td class='profit'>$+2.89</td>
+                <td>PROFIT_TARGET</td>
+            </tr>
+            <tr>
+                <td>2025-11-02 09:16:30</td>
+                <td>ETHUSDT</td>
+                <td>1</td>
+                <td>$3878.12</td>
+                <td>$3900.92</td>
+                <td class='profit'>$+2.96</td>
+                <td>PROFIT_TARGET</td>
+            </tr>
+            <tr>
+                <td>2025-11-02 09:16:28</td>
+                <td>BTCUSDT</td>
+                <td>1</td>
+                <td>$110008.00</td>
+                <td>$110736.00</td>
+                <td class='profit'>$+3.64</td>
+                <td>PROFIT_TARGET</td>
+            </tr>
+            <tr>
+                <td>2025-11-02 00:57:26</td>
+                <td>DOTUSDT</td>
+                <td>1</td>
+                <td>$2.95</td>
+                <td>$2.97</td>
+                <td class='profit'>$+2.56</td>
+                <td>PROFIT_TARGET</td>
+            </tr>
+            <tr>
+                <td>2025-11-01 21:33:09</td>
+                <td>DOGEUSDT</td>
+                <td>1</td>
+                <td>$0.19</td>
+                <td>$0.19</td>
+                <td class='profit'>$+2.70</td>
+                <td>PROFIT_TARGET</td>
+            </tr>
+            <tr>
+                <td>2025-11-01 21:33:08</td>
+                <td>AVAXUSDT</td>
+                <td>1</td>
+                <td>$18.61</td>
+                <td>$18.71</td>
+                <td class='profit'>$+2.66</td>
+                <td>PROFIT_TARGET</td>
+            </tr>
+            <tr>
+                <td>2025-11-01 16:59:35</td>
+                <td>SOLUSDT</td>
+                <td>2</td>
+                <td>$185.37</td>
+                <td>$186.29</td>
+                <td class='profit'>$+6.24</td>
+                <td>PROFIT_TARGET</td>
+            </tr>
             <tr>
                 <td>2025-11-01 16:08:38</td>
                 <td>ETHUSDT</td>
@@ -254,111 +323,9 @@
                 <td>$0.61</td>
                 <td class='profit'>$+2.79</td>
                 <td>PROFIT_TARGET</td>
-            </tr>
-            <tr>
-                <td>2025-11-01 08:24:31</td>
-                <td>AVAXUSDT</td>
-                <td>1</td>
-                <td>$18.35</td>
-                <td>$18.47</td>
-                <td class='profit'>$+3.44</td>
-                <td>PROFIT_TARGET</td>
-            </tr>
-            <tr>
-                <td>2025-11-01 04:41:38</td>
-                <td>ADAUSDT</td>
-                <td>1</td>
-                <td>$0.61</td>
-                <td>$0.61</td>
-                <td class='profit'>$+2.55</td>
-                <td>PROFIT_TARGET</td>
-            </tr>
-            <tr>
-                <td>2025-11-01 03:54:59</td>
-                <td>DOTUSDT</td>
-                <td>1</td>
-                <td>$2.88</td>
-                <td>$2.89</td>
-                <td class='profit'>$+2.55</td>
-                <td>PROFIT_TARGET</td>
-            </tr>
-            <tr>
-                <td>2025-11-01 03:22:07</td>
-                <td>AVAXUSDT</td>
-                <td>1</td>
-                <td>$18.19</td>
-                <td>$18.28</td>
-                <td class='profit'>$+2.50</td>
-                <td>PROFIT_TARGET</td>
-            </tr>
-            <tr>
-                <td>2025-11-01 02:32:22</td>
-                <td>AVAXUSDT</td>
-                <td>1</td>
-                <td>$18.17</td>
-                <td>$18.27</td>
-                <td class='profit'>$+2.83</td>
-                <td>PROFIT_TARGET</td>
-            </tr>
-            <tr>
-                <td>2025-10-31 20:34:31</td>
-                <td>AVAXUSDT</td>
-                <td>2</td>
-                <td>$18.11</td>
-                <td>$18.23</td>
-                <td class='profit'>$+7.86</td>
-                <td>PROFIT_TARGET</td>
-            </tr>
-            <tr>
-                <td>2025-10-31 20:34:29</td>
-                <td>ADAUSDT</td>
-                <td>2</td>
-                <td>$0.61</td>
-                <td>$0.61</td>
-                <td class='profit'>$+6.76</td>
-                <td>PROFIT_TARGET</td>
-            </tr>
-            <tr>
-                <td>2025-10-31 20:34:09</td>
-                <td>DOGEUSDT</td>
-                <td>1</td>
-                <td>$0.19</td>
-                <td>$0.19</td>
-                <td class='profit'>$+3.20</td>
-                <td>PROFIT_TARGET</td>
-            </tr>
-            <tr>
-                <td>2025-10-31 20:33:20</td>
-                <td>DOTUSDT</td>
-                <td>2</td>
-                <td>$2.86</td>
-                <td>$2.88</td>
-                <td class='profit'>$+5.41</td>
-                <td>PROFIT_TARGET</td>
-            </tr>
-            <tr>
-                <td>2025-10-31 20:28:21</td>
-                <td>XRPUSDT</td>
-                <td>1</td>
-                <td>$2.50</td>
-                <td>$2.52</td>
-                <td class='profit'>$+2.82</td>
-                <td>PROFIT_TARGET</td>
-            </tr>
-            <tr>
-                <td>2025-10-31 20:27:28</td>
-                <td>ETHUSDT</td>
-                <td>1</td>
-                <td>$3854.24</td>
-                <td>$3874.21</td>
-                <td class='profit'>$+2.60</td>
-                <td>PROFIT_TARGET</td>
             </tr></tbody>
         </table>
-        
-        <p style="text-align: center; color: #888; margin-top: 20px;">
-            Last Updated: 2025-11-01 16:36:04
-        </p>
+        <p style="text-align: center; color: #888; margin-top: 20px;">Last Updated: 2025-11-02 11:34:04</p>
     </div>
 </body>
 </html>
